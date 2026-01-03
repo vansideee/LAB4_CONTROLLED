@@ -1,0 +1,5 @@
+if(EXISTS "D:/lab_OC/lab4_OC/out/build/x64-debug/lab4_OC/UnitTests[1]_tests.cmake")
+  include("D:/lab_OC/lab4_OC/out/build/x64-debug/lab4_OC/UnitTests[1]_tests.cmake")
+else()
+  add_test(UnitTests_NOT_BUILT UnitTests_NOT_BUILT)
+endif()
